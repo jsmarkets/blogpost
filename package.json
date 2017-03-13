@@ -1,22 +1,29 @@
 {
-  "name": "blopost",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.15.2"
-  },
- 
   "scripts": {
-   
     "start": "node index.js"
-    
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsmarkets/blogpost.git"
+    "url": "https://github.com/jsmarkets/blogpost"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT"
 }
-
