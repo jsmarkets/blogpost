@@ -1,19 +1,24 @@
 {
-  "name": "blogpost",
+  "name": "myfacebook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start" "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsmarkets/blogpost.git"
+    "url": "git+https://github.com/jsmarkets/myfacebook.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jsmarkets/blogpost/issues"
+    "url": "https://github.com/jsmarkets/myfacebook/issues"
   },
-  "homepage": "https://github.com/jsmarkets/blogpost#readme"
+  "homepage": "https://github.com/jsmarkets/myfacebook#readme"
 }
